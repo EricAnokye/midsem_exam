@@ -31,8 +31,25 @@
 
   <title>midsem_exam</title>
   <link rel="manifest" href="manifest.json">
+  
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
 </head>
 <body>
+  <script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBT6-SxbqqO6Ft5DAtOPtUumYRzMQ3AMUk",
+      authDomain: "midsemexam-2380b.firebaseapp.com",
+      projectId: "midsemexam-2380b",
+      storageBucket: "midsemexam-2380b.firebasestorage.app",
+      messagingSenderId: "1002327439441",
+      appId: "1:1002327439441:web:42bb2c9a1f0b08aac06070"
+    };
+
+    // Initialize Firebase
+    const app = firebase.initializeApp(firebaseConfig);
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
